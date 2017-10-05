@@ -1,6 +1,6 @@
 convert <- function(adnu) {
   if(grepl("[[:digit:]]",adnu)){
-    address_lookup(adnu)}
+    address(adnu)}
   else if (grepl("[[:punct:]]",adnu)){
-    coord_lookup(adnu)}
+    coord(adnu)}
 }
